@@ -43,7 +43,6 @@ public class LoginActivity extends AppCompatActivity implements ILoginView {
             }
         });
     }
-
     public void OnLoginSuccess(String message) {
         Toast.makeText(this,message,Toast.LENGTH_SHORT).show();
         startActivity(new Intent(LoginActivity.this,DashboardActivity.class));

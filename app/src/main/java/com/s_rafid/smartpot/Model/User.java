@@ -1,5 +1,4 @@
 package com.s_rafid.smartpot.Model;
-
 import android.text.TextUtils;
 import android.util.Log;
 import android.util.Patterns;

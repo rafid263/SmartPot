@@ -49,7 +49,6 @@ public class RegisterController implements IRegisterController {
                             registerView.OnRegisterError(e.getLocalizedMessage());
                         }
                     });
-
         }
     }
 

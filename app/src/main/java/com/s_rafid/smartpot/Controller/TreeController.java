@@ -60,9 +60,6 @@ public class TreeController {
                     Response response = null;
                     try {
                         response = client.newCall(request).execute();
-                        //treeTemp.setText(response.body().string());
-                        //Log.d("Value temp:",response.body().string());
-                        //treeView.OnUpdate(response.body().string());
                         data[i]=response.body().string();
                     } catch (IOException e) {
                         e.printStackTrace();
@@ -87,9 +84,6 @@ public class TreeController {
                     Response response = null;
                     try {
                         response = client.newCall(request).execute();
-                        //treeTemp.setText(response.body().string());
-                        //Log.d("Value temp:",response.body().string());
-                        //treeView.OnUpdate(response.body().string());
 
                     } catch (IOException e) {
                         e.printStackTrace();

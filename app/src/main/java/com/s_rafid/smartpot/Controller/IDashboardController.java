@@ -1,7 +1,5 @@
 package com.s_rafid.smartpot.Controller;
-
 import com.s_rafid.smartpot.Model.Tree;
-
 import java.util.ArrayList;
 import java.util.List;
 

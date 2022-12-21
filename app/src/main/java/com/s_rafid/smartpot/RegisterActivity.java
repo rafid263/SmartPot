@@ -48,7 +48,6 @@ public class RegisterActivity extends AppCompatActivity implements IRegisterView
         });
     }
 
-
     @Override
     public void OnRegisterSuccess(String message) {
         Toast.makeText(this,message,Toast.LENGTH_SHORT).show();

@@ -23,9 +23,6 @@ public class TreeActivity extends AppCompatActivity implements ITreeView {
     String tempTree="-",humTree="-",moistTree="-",waterTree="-",pumpTree="-";
     ImageView treeMood;
     int pumpStatus=0;
-    //Intent intent = getIntent();
-    //String nameTree = intent.getStringExtra("name");
-    //String authTree = intent.getStringExtra("auth");
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

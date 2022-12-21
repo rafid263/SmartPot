@@ -36,7 +36,6 @@ public class DashboardController implements IDashboardController{
         }
         dashboardView.OnLogout("Logout successful.");
     }
-
     @Override
     public boolean addTree(String name, String auth) {
         TreeModel t1=new TreeModel(name,auth,firebaseAuth.getCurrentUser().getEmail());

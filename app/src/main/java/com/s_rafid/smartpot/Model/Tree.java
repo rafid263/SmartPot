@@ -51,7 +51,6 @@ public class Tree implements ITree{
         else
             return 1;
     }
-
     @Override
     public int getMood(int t, int h, int m) {
         /*

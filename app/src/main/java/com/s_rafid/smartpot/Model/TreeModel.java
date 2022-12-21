@@ -25,7 +25,6 @@ public class TreeModel implements ITreeModel {
     public String getEmail() {
         return email;
     }
-
     @Override
     public int isValid() {
         if (TextUtils.isEmpty(getName()) || TextUtils.isEmpty(getAuth()))
