@@ -3,12 +3,14 @@ package com.s_rafid.smartpot.Model;
 import android.text.TextUtils;
 
 public class TreeModel implements ITreeModel {
-    String name,auth,email;
-    public TreeModel(String name, String auth,String email) {
+    String name, auth, email;
+
+    public TreeModel(String name, String auth, String email) {
         this.name = name;
         this.auth = auth;
         this.email = email;
     }
+
     @Override
     public String getName() {
         return name;
@@ -26,8 +28,8 @@ public class TreeModel implements ITreeModel {
 
     @Override
     public int isValid() {
-        if(TextUtils.isEmpty(getName()) || TextUtils.isEmpty(getAuth()))
-            return  0;
+        if (TextUtils.isEmpty(getName()) || TextUtils.isEmpty(getAuth()))
+            return 0;
         else
             return 1;
     }
